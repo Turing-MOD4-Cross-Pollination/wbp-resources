@@ -3,7 +3,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import NetInfo from '@react-native-community/netinfo';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import HomeScreen from './components/HomeScreen/HomeScreen';
 import ForMeScreen from './components/ForMeScreen/ForMeScreen';
 import NearMeScreen from './components/NearMeScreen/NearMeScreen';
@@ -62,6 +62,7 @@ class Home extends Component {
   }
 }
 
+
 export const mapStateToProps = (state) => ({
   allResources: state.allResources,
   allMeetings: state.allMeetings,
@@ -76,5 +77,7 @@ export const mapDispatchToProps = (dispatch) => {
     },
     dispatch,
   );
+
 };
+
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
