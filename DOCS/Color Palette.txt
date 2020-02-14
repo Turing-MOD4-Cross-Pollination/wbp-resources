@@ -1,0 +1,4 @@
+Color Palette
+
+green = ##4E5A31
+Burnt Orange = #B14F1F
