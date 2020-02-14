@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, Dimensions } from 'react-native';
 
@@ -7,7 +8,7 @@ export default class HomeScreen extends Component {
   static navigationOptions = {
     title: 'Home',
     headerStyle: {
-      backgroundColor: '#003180',
+      backgroundColor: '#4E5A31',
       elevation: 0,
       shadowOpacity: 0,
       borderBottomWidth: 0,
@@ -24,14 +25,10 @@ export default class HomeScreen extends Component {
       <>
         <View style={styles.container}>
           <View style={styles.logoContainer}>
-            <Image source={require('../../assets/logo.png')} style={styles.logoImage} />
-            <Text style={styles.logoText}>community</Text>
-            <Text style={{ ...styles.logoText, marginTop: -15 }}>connect</Text>
+            <Image source={require('../../assets/header_logo.png')} style={styles.logoImage} />
           </View>
-          <Text style={styles.colorado}>COLORADO</Text>
-          <Text style={styles.summary}>
-            Find all resources available and make them your own for fast and easy access.
-          </Text>
+          {/* <Text style={styles.colorado}>Women's Bean Project</Text> */}
+          <Text style={styles.summary}>Changing women's lives.</Text>
           <View style={styles.line} />
           <View style={styles.buttonsContainer}>
             <View style={styles.row}>
@@ -60,7 +57,7 @@ export default class HomeScreen extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#003180',
+    backgroundColor: '#4E5A31',
     alignItems: 'center',
     justifyContent: 'space-around',
     height: '100%',
@@ -83,7 +80,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',
-    backgroundColor: '#ed3b53',
+    backgroundColor: '#B14F1F',
     borderRadius: 12,
     shadowColor: '#000',
     shadowOffset: {
@@ -141,7 +138,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '700',
     textAlign: 'center',
-    color: '#003180',
+    color: '#4E5A31',
   },
   line: {
     width: '83%',
@@ -152,7 +149,7 @@ const styles = StyleSheet.create({
   logoContainer: {
     backgroundColor: 'white',
     width: '100%',
-    height: 70,
+    height: 150,
     marginBottom: 50,
     display: 'flex',
     justifyContent: 'space-around',
@@ -168,12 +165,8 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
   },
   logoImage: {
-    height: 140,
-    width: 140,
-    position: 'absolute',
-    alignSelf: 'center',
-    top: '-54%',
-    right: '61%',
+    width: '90%',
+    resizeMode: 'contain',
   },
   colorado: {
     fontSize: 28,
@@ -183,7 +176,7 @@ const styles = StyleSheet.create({
   summary: {
     color: 'white',
     width: '83%',
-    fontSize: 18,
+    fontSize: 20,
     marginBottom: 15,
     textAlign: 'center',
     opacity: 0.8,
