@@ -1,6 +1,6 @@
-![bannerconnect](https://user-images.githubusercontent.com/48811985/71701943-a1d2ad00-2dc4-11ea-8090-684f26152ed1.jpg)
+![Women's Bean Project Logo](./assets/header_logo.svg)
 
-# Colorado: Community Connect App
+# Women's Bean Project Resources 
 
 ## Summary
 
@@ -13,19 +13,11 @@ A React Native application where you can find all of the resources that are avai
 - [StarPerfect](https://github.com/StarPerfect)
 - [josherwood1](https://github.com/joshsherwood1)
 
-[Project Storyboard](https://github.com/users/KVeitch/projects/4)
-
 ### You can find our back-end repo [here](https://github.com/Turing-MOD4-Cross-Pollination/be-help-yourself).
 
 ## Screenshots
 
 ![new copy](https://user-images.githubusercontent.com/48811985/71874219-3d438500-3119-11ea-9603-5eece1137602.jpg)
-
-## Learnings
-
-- Developing a smartphone app.
-- Working in conjunction with a back-end team.
-- Deploying to the Apple/Play Store
 
 ## Built with
 
@@ -35,10 +27,3 @@ A React Native application where you can find all of the resources that are avai
 - Jest
 - Enzyme
 
-## How to install into your computer
-
-1. Fork and clone down this repository.
-2. In your Terminal, access the directory of this repository.
-3. Run `npm install` to install the webpack dependencies.
-4. Once it has finished installing, run `npm start`.
-5. Check out your broswer.
