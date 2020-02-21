@@ -28,7 +28,7 @@ export default class HomeScreen extends Component {
             <Image source={require('../../assets/header_logo.png')} style={styles.logoImage} />
           </View>
           {/* <Text style={styles.colorado}>Women's Bean Project</Text> */}
-          <Text style={styles.summary}>Changing women's lives.</Text>
+          <Text style={styles.summary}>REAL WORK. REAL FOOD. REAL PROMISE. ®</Text>
           <View style={styles.line} />
           <View style={styles.buttonsContainer}>
             <View style={styles.row}>
@@ -57,7 +57,7 @@ export default class HomeScreen extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#4E5A31',
+    backgroundColor: '#4E5B31',
     alignItems: 'center',
     justifyContent: 'space-around',
     height: '100%',
@@ -80,15 +80,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',
-    backgroundColor: '#B14F1F',
+    backgroundColor: '#B15013',
     borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
+    // shadowColor: '#000',
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 3,
+    // },
+    // shadowOpacity: 0.3,
+    // shadowRadius: 4.65,
     elevation: 7,
   },
   buttonNearMe: {
@@ -99,13 +99,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#FFF',
     borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
+    // shadowColor: '#000',
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 3,
+    // },
+    // shadowOpacity: 0.3,
+    // shadowRadius: 4.65,
     elevation: 7,
     padding: 5,
   },
@@ -118,13 +118,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 12,
     shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
-
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 3,
+    // },
+    // shadowOpacity: 0.3,
+    // shadowRadius: 4.65,
     elevation: 7,
   },
   row: {
@@ -138,7 +137,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '700',
     textAlign: 'center',
-    color: '#4E5A31',
+    color: '#4e5b31',
   },
   line: {
     width: '83%',
