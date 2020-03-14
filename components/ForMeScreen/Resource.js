@@ -47,7 +47,7 @@ const Resource = ({ categoryName, allResources }) => {
 const styles = StyleSheet.create({
   container: {
     marginTop: 8,
-    backgroundColor: '#2979FF',
+    backgroundColor: '#879e55',
     paddingHorizontal: 16,
     paddingVertical: 10,
     borderRadius: 8,
