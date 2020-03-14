@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: '#ed3b53',
+    color: '#FF0000',
   },
   pointsContainer: {
     borderRadius: 8,

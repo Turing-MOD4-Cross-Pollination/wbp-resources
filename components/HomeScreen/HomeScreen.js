@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     marginLeft: 160,
     fontWeight: '700',
     height: 50,
-    color: '#003180',
+    color: '#4e5b31',
     letterSpacing: -1,
   },
   logoImage: {
