@@ -21,6 +21,10 @@ export const MainNavigator = createStackNavigator({
 const AppContainer = createAppContainer(MainNavigator);
 
 class Home extends Component {
+  componentDidMount() {
+    this.internetCheck();
+  }
+
   getDataWithConnection = async () => {
     const { setAllResources, setAllCategories } = this.props;
     const response = await getAllData();
@@ -41,10 +45,6 @@ class Home extends Component {
 
     setAllMeetings(resolvedPromises);
   };
-
-  componentDidMount() {
-    this.internetCheck();
-  }
 
   internetCheck = () => {
     NetInfo.fetch().then((state) => {
