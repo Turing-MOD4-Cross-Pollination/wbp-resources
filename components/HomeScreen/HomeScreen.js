@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '700',
     textAlign: 'center',
-    color: '#4e5b31',
+    color: '#4E5A31',
   },
   line: {
     width: '83%',
